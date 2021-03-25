@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-// head - 웹사이트 환경 // body - 웹사이트 콘텐츠
+<!-- 
+head - 웹사이트 환경 
+body - 웹사이트 콘텐츠
+기본 형태 <tagname attrname="attrvalue"> </tagname>
+-->
+
 <html lang="kr" />
 <head>
   <link
@@ -12,8 +17,8 @@
   <meta name="description" content="this is sample description!" />
 </head>
 
-<body>
-  <html>
+<html>
+  <body>
     <h1>Hello this is my Website h1</h1>
     <h2>Hello this is my Website h2</h2>
     <h3>Hello this is my Website h3</h3>
@@ -56,5 +61,15 @@
     <p>I lkie to live in <mark>South Korea</mark></p>
     <p>I lkie to live in <sup>South Korea</sup></p>
     <p>I lkie to live in <sub>South Korea</sub></p>
-  </html>
-</body>
+
+    <form>
+      <input required placeholder="name" type="text" />
+      <input required placeholder="lastname" type="text" />
+      <input required placeholder="username" type="text" />
+      <input required placeholder="password" type="password" />
+      <input required type="submit" value="Create Account" />
+      <input type="file" accept=".pdf,.jpg" />
+      <input type="file" accept="image/*" />
+    </form>
+  </body>
+</html>
