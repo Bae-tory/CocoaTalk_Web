@@ -63,13 +63,20 @@ body - 웹사이트 콘텐츠
     <p>I lkie to live in <sub>South Korea</sub></p>
 
     <form>
-      <input required placeholder="name" type="text" />
-      <input required placeholder="lastname" type="text" />
-      <input required placeholder="username" type="text" />
-      <input required placeholder="password" type="password" />
+      <label for="first-name">First Name</label>
+      <input id="first-name" required placeholder="name" type="text" />
+      <label for="last-name">Last Name</label>
+      <input id="last-name" required placeholder="lastname" type="text" />
+      <label for="username">User Name</label>
+      <input id="username" required placeholder="username" type="text" />
+      <label for="password">PassWord</label>
+      <input id="password" required placeholder="password" type="password" />
+      <input id="website" required placeholder="Name" type="date" />
       <input required type="submit" value="Create Account" />
       <input type="file" accept=".pdf,.jpg" />
-      <input type="file" accept="image/*" />
+      <input id="profile" type="file" accept="image/*" />
     </form>
+
+    <label for="profile">Profile photo</label>
   </body>
 </html>
