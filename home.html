@@ -19,12 +19,18 @@ body - 웹사이트 콘텐츠
 
 <html>
   <body>
-    <h1>Hello this is my Website h1</h1>
-    <h2>Hello this is my Website h2</h2>
-    <h3>Hello this is my Website h3</h3>
-    <h4>Hello this is my Website h4</h4>
-    <h5>Hello this is my Website h5</h5>
-    <h6>Hello this is my Website h6</h6>
+    <header>
+      <h1>Hello this is my Website h1</h1>
+    </header>
+    <main>
+      <h2>Hello this is my Website h2</h2>
+      <h3>Hello this is my Website h3</h3>
+    </main>
+    <footer>
+      <h4>Hello this is my Website h4</h4>
+      <h5>Hello this is my Website h5</h5>
+      <h6>Hello this is my Website h6</h6>
+    </footer>
     // more than h6 no concept
 
     <ul>
@@ -71,10 +77,14 @@ body - 웹사이트 콘텐츠
       <input id="username" required placeholder="username" type="text" />
       <label for="password">PassWord</label>
       <input id="password" required placeholder="password" type="password" />
-      <input id="website" required placeholder="Name" type="date" />
-      <input required type="submit" value="Create Account" />
-      <input type="file" accept=".pdf,.jpg" />
-      <input id="profile" type="file" accept="image/*" />
+      <div>
+        <input id="website" required placeholder="Name" type="date" />
+        <input required type="submit" value="Create Account" />
+      </div>
+      <div>
+        <input type="file" accept=".pdf,.jpg" />
+        <input id="profile" type="file" accept="image/*" />
+      </div>
     </form>
 
     <label for="profile">Profile photo</label>
