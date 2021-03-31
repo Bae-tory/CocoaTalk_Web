@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 
+head - 웹사이트 환경 
+body - 웹사이트 콘텐츠
+기본 형태 <tagname attrname="attrvalue"> </tagname>
+-->
+
+<html lang="kr" />
+<head>
+  <link
+    rel="shortcut icon"
+    sizes="16x16 32x32 64x64"
+    href="https://nomadcoders.co/m.png"
+  />
+  <style>
+
+  </style>
+  <title>Home - My First website.</title>
+  <link href="styles.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="description" content="this is sample de scription!" />
+  <!-- box는 세가지 속성이 있는데 margin,border,padding이 있음  -->
+  <!-- collapsing margin은 box와 body의 경계가 같을 때 일어나고 위 아래로 하나의 margin값만 적용되는 것을 말한다. -->
+  <style>
+      body{
+          margin: 20px;
+      }
+      span{
+          background-color: thistle;
+          padding: 20px
+      }
+      /* id를 ,로 구분지어 한번에 부여 가능 */
+      #tomato1,#tomato2,#tomato3{
+          background-color: turquoise;
+          padding: 3px;
+          border-radius: 20px;
+      }
+      /* .붙이면 class를 명명하는 것 */
+      .btn{
+        margin-left: 10px;
+      }
+      .tomato{
+            background-color: tomato;
+            padding: 5px 10px;
+            border-radius: 15px;
+      }
+  </style>
+</head>
+<body>
+    <!-- inline은 상하 마진이 적용 안됨 -->
+    <body>
+        <span>hello</span>
+        <!-- class 는 하나의 속성단위이며 여러개를 적용할 수 있음 -->
+        <span class="btn tomato">hello</span>
+        <span>hello</span>
+        <span class="btn tomato">hello</span>
+        <span>hello</span>
+        <span class="btn tomato">hello</span>
+        <span>hello</span>
+        <span id="tomato1">hello</span>
+        <span>hello</span>
+        <span id="tomato2">hello</span>
+        <span>hello</span>
+        <span id="tomato3">hello</span>
+    </body>
+
+</body>
+
+</html>
