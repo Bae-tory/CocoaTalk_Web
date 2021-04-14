@@ -26,12 +26,17 @@ body - 웹사이트 콘텐츠
     }
     :root {
       --main-color: #fcce00;
+      --default-border: 1px solid var(--main-color);
     }
     p {
       background-color: var(--main-color);
     }
+    a {
+      border: var(--default-border);
+    }
   </style>
   <body>
     <p>This is paragraph</p>
+    <a>www.sample.com</a>
   </body>
 </html>
