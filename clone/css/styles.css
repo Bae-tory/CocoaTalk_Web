@@ -1,14 +1,23 @@
 /* Google Fonts에서 리소스 구할 수 있음 폰트는 상단에*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 @import "reset.css";
 @import "variables.css";
+
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 
 /* styles.css에는 모든 화면에 적용되는 것들을 적는다. */
 body{
+    padding-top: 50px;
     font-family: 'Open Sans', sans-serif;
+    height: 500vh;
+    color: #2e363e;
 }
